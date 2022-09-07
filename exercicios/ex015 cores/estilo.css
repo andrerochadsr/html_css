@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+body {
+    background-color: blueviolet;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+    color: rgb(2, 0, 0);
+    text-align: justify;
+}
+h1 {
+    text-align: center;
+    background-color: aqua;
+    color: rgb(3, 116, 78);
+}
+h2 {
+    text-align: center;
+    background-color: blanchedalmond;
+    color: brown;
+}
+p {
+    color: black;
+}

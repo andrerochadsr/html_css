@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+body {
+    background-color: blueviolet;
+}
+
+h1 {
+    color: rgb(5, 255, 5);
+}
+
+h2 {
+    color: rgb(7, 255, 7);
+}
+
+#bas { /* TODOS COM A TAG " BAS " RECEBEM ESTA CONFIGURAÇÃO, ESPEFICIQUE QUAL O SELETOR*/
+    text-align: center;
+}
+
+h3 {
+    color: rgb(7, 253, 7);
+}
+
+
+/*
+
+em HTML é id e em CSS é # >>> so pode usar uma vez em um deocumento, mas pode se usar em varios diferentes
+em HTML é class e em CSS é . >>> pode usar mais de uma vez
+
+*/

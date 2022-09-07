@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens dinamicas</title>
+</head>
+<body>
+    <h1>Imagem dinamica</h1>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imgs/paisa-400.jpg" type="image/jpg">
+        <source media="(max-width: 1050px)" srcset="imgs/paisa-700.jpg" type="image/jpg">
+        <img src="imgs/paisa-1000.jpg" alt="Imagem flexivel">
+    </picture>
+    <h1>Reproduzindo audios</h1>
+    <p></p>
+    <audio src="aud/Black Mass - Brian Bolger.mp3" controls>Black Mass</audio>
+    <audio preload="metadata" controls>
+        <source src="aud/Dead Forest - Brian Bolger.mp3" type="audio/mpeg">
+    </audio>
+</body>
+</html>
