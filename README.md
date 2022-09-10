@@ -2,4 +2,4 @@
  Curso de HTML e CSS
 
 
- <a href="https://andrerochadsr.github.io/html_css/desafios/de010/android.html">Site</a>
+ <a href="https://andrerochadsr.github.io/html_css/desafios/de010/android.html" target="_blank">Site</a>
