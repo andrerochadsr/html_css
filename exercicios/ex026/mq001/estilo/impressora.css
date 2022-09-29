@@ -28,3 +28,7 @@ article::after {
 header {
     background-color: grey;
 }
+
+article {
+    width: 100%;
+}
