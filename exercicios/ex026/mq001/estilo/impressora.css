@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+* {
+    padding: 10px;
+    margin: 10px;
+}
+
+menu {
+    display: none;
+}
+
+html {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.5em;
+    line-height: 1.5em;
+}
+
+p {
+    text-align: justify;
+    text-indent: 50px;
+}
+
+article::after {
+    content: "Este artigo foi impresso hoje";
+    font-size: 1em;
+}
+
+header {
+    background-color: grey;
+}
