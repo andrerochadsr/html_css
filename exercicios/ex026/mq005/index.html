@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="estilos/media-queries.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
 </head>
-<body>
+<body onresize="mudoutamanho()">
     <header>
         <h1>Meu site</h1>
         <span class="material-icons" id="burger" onclick="clickmenu()">menu</span>
@@ -47,6 +47,13 @@
         </article>
     </main>
     <script>
+        function mudoutamanho() {
+            if (window.innerWidth >= 768) {
+                menu.style.display = 'block'
+            } else {
+                menu.style.display = 'none'
+            }
+        }
         function clickmenu() {
             
             if (menu.style.display == 'block') {

@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+@media print {}
+
+
+@media screen and (min-width: 768px) {
+    span#burger {
+        display: none;
+        
+    }
+    nav > ul  {
+        display: inline-flex;
+        margin: auto;
+    }
+    nav {
+        
+        border-radius: 5px;
+        text-align: center;
+    }
+    nav > ul > li {
+        background-color: rgb(78, 76, 76);
+        border-radius: 5px;
+        margin: 2px;
+    }
+
+    main, footer {
+        width: 768px;
+    }
+
+
+
+}
