@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <h1>Exemplo </h1>
+    <form action="" method="post">
+        <p>
+            <label for="inome">Nome: </label>
+            <input type="text" class="nome" id="inome" required placeholder="nome" minlength="3" maxlength="45">
+        </p>
+        <p>
+            <label for="iest">Estado: </label>
+            <select name="est" id="iest">
+                <optgroup label="Norte">
+                    <option value="AM">Amazonas</option>
+                    <option value="AP">Amapá</option>
+                </optgroup>
+                <optgroup label="Sudeste">
+                    <option value="RJ">Rio de Janeiro</option>
+                    <option value="SP" selected>São Paulo</option>
+                </optgroup>
+                <optgroup label="Nordeste">
+                    <option value="MA">Maranhão</option>
+                    <option value="RN">Rio Grande do Norte</option>
+                </optgroup>
+            </select>
+
+        </p>
+        <p>
+            <label for="iprof">Profissão: </label>
+            <input type="text" name="profi" id="iprofi" list="lstprofi">
+            <datalist id="lstprofi">
+                <option>Administrador</option>
+            </datalist>
+        </p>
+        <p>
+            <label for="imsg">Mensagem: <br></label>
+            <textarea name="msg" id="imsg" cols="30" rows="10"></textarea>
+        </p>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+</body>
+</html>
