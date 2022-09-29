@@ -6,11 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="esrilos/style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
 </head>
 <body>
     <header>
         <h1>Meu site</h1>
-        <nav>
+        <span class="material-icons" id="burger" onclick="clickmenu()">menu</span>
+        <nav id="menu">
             <ul>
                 <li>
                     <a href="index.html">Inicio</a>
@@ -43,6 +45,19 @@
 
         </article>
     </main>
+    <script>
+        function clickmenu() {
+            
+            if (menu.style.display == 'block') {
+                menu.style.display = 'none'
+            } else {
+                menu.style.display = 'block'
+            }
+
+            
+
+        }
+    </script>
 
     <footer>
         <p>Projeto feito por <a href="https://github.com/andrerochadsr" target="_blank"> André Rocha</a> para o <a href="https://www.youtube.com/c/CursoemV%C3%ADdeo/" target="_blank">Curso em Video</a></p>

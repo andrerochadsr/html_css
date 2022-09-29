@@ -14,8 +14,22 @@ header > h1 {
     text-align: center;
 }
 
-nav {
+span#burger {
+    background-color: rgb(78, 76, 76);
     display: block;
+    border-radius: 3px;
+    text-align: center;
+    padding: 10px;
+    
+}
+
+span#burger:hover {
+    background-color: white;
+    cursor: pointer;
+}
+
+nav {
+    display: none;
 }
 
 nav > ul {
@@ -36,14 +50,14 @@ nav > ul > li > a:hover {
     background-color: aliceblue;
     color: black;
     font-weight: bold;
-    transform: scale(110%);
+
 }
 
 main {
     
     background-color: wheat;
     
-    display: block;
+
     margin: auto;
     margin-top: 10px;
     width: 80vw;
@@ -65,14 +79,13 @@ footer {
     width: 80vw;
     background-color: aquamarine;
     margin: auto;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
+    border-radius: 10px;
     margin-top: 15px;
     padding: 10px;
+    text-align: center;
 }
 
 footer > p > a {
-    text-align: center;
     text-decoration: none;
     padding: 3px;
 }
