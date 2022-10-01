@@ -7,4 +7,4 @@
 
 <a href="https://andrerochadsr.github.io/projeto-social-b/" target="_blank">Projeto Social</a>
 
-<a href="https://andrerochadsr.github.io/projeto-login-a/" target="_blank">Projeto Login</a>
+<a href="https://andrerochadsr.github.io/projeto-login/" target="_blank">Projeto Login</a>
