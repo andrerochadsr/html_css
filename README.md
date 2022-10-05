@@ -9,6 +9,6 @@
 
 <a href="https://andrerochadsr.github.io/projeto-login/" target="_blank">Projeto Login</a>
 
-<a href="https://andrerochadsr.github.io/pokedex/" target="_blank">Projeto Login</a>
+<a href="https://andrerochadsr.github.io/pokedex/" target="_blank">Projeto PokeDex</a>
 
 
