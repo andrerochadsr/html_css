@@ -11,4 +11,4 @@
 
 <a href="https://andrerochadsr.github.io/pokedex/" target="_blank">Projeto PokeDex</a>
 
-<a href="https://andrerochadsr.github.io/valor-min-max/" target="_blank">Projeto Projeto valor mínimo e máximo</a>
+<a href="https://andrerochadsr.github.io/valor-min-max/" target="_blank">Projeto valor mínimo e máximo</a>
